@@ -182,8 +182,8 @@ if __name__=='__main__':
     restaurant_list=get_yelp_data(api,api_key)
     restaurant_len=len(restaurant_list)
     if restaurant_len>=5000:
-      aws_access_key_id='AKIAR34BPQR6QAIR6GXJ'
-      aws_secret_access_key='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'
+      aws_access_key_id=''
+      aws_secret_access_key=''
       region_name='us-east-1'
       send_to_dynamodb(aws_access_key_id,aws_secret_access_key,region_name,restaurant_list)
       #es_host='search-restraunteat-axtv5ugylo65y6xkczhcwdol6y.us-east-1.es.amazonaws.com'
