@@ -2,8 +2,8 @@ import json
 import boto3
 import random
 from opensearchpy import OpenSearch, RequestsHttpConnection
-aws_access_key_id='AKIAR34BPQR6QAIR6GXJ'
-aws_secret_access_key='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'
+aws_access_key_id=''
+aws_secret_access_key=''
 region_name='us-east-1'
 
 #Setting values to be referenced later in the program
