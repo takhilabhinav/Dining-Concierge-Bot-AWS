@@ -186,7 +186,7 @@ if __name__=='__main__':
       aws_secret_access_key=''
       region_name='us-east-1'
       send_to_dynamodb(aws_access_key_id,aws_secret_access_key,region_name,restaurant_list)
-      #es_host='search-restraunteat-axtv5ugylo65y6xkczhcwdol6y.us-east-1.es.amazonaws.com'
+      es_host='search-restraunteat-axtv5ugylo65y6xkczhcwdol6y.us-east-1.es.amazonaws.com'
       es_port=443
       es_http_auth = ('abhinavdwarkani','Abhinav123*')
       send_to_es(restaurant_list,es_host,es_port,es_http_auth)    
