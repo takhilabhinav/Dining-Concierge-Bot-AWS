@@ -172,7 +172,7 @@ def validate_slots(location, cuisine, count_people, date, time, phonenumber, ema
     if location is not None and location.lower() != "manhattan":
         return validation_res(False,'Location','We do not serve this region. Please try again!')
     
-    cuisines = ['italian', 'chinese', 'mexican','korean','indian', 'japanese']
+    cuisines = ['indian','italian','mexican','chinese','japanese','french','greek']
     if cuisine is not None and cuisine.lower() not in cuisines:
         return validation_res(False,'Cuisine','Cuisine not found! Please try another!')
 
