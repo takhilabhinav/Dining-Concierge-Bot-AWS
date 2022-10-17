@@ -24,7 +24,7 @@ Chatbot validates the responses from user and based on this conversation, the LE
 ***
 ***
 
-## WORKFLOW DIAGRAM 
+## WORKFLOW 
 ![alt text](https://github.com/takhilabhinav/Dining-Concierge-Bot-AWS/blob/main/Output%20Images/workflow.jpg)
 
 ## Sample Use Case
